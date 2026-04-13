@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Ambulance-FireTruck', 'FireTruck']
+
+roboflow:
+  workspace: ai-powered-traffic-management-system
+  project: emergency-vehicle-psv0q
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-powered-traffic-management-system/emergency-vehicle-psv0q/dataset/1
